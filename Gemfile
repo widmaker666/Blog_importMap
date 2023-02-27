@@ -10,7 +10,9 @@ gem "rails", "~> 7.0.4", ">= 7.0.4.2"
 gem "sprockets-rails"
 gem "faker"
 gem "rspec"
-
+gem 'htmlbeautifier'
+gem 'prettier'
+gem 'devise', '~> 4.2'
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 

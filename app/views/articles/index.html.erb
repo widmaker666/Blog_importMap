@@ -1,7 +1,9 @@
 <p style="color: green"><%= notice %></p>
 
 <h1>Articles</h1>
-
+<br>
+<button id='btn'>Combien d'article</button>
+<h1 class="nb"></h1>
 <div id="articles">
   <% @articles.each do |article| %>
     <%= render article %>
